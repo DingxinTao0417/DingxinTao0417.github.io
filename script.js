@@ -1,15 +1,15 @@
-document.getElementById('content').innerHTML = '<p>这是我的第一篇博客文章。</p>';
+document.getElementById('content').innerHTML = '<p>BlogWeb</p>';
 
 var blogPosts = [
     {
-        title: '我的第一篇博客文章',
-        summary: '这是我的第一篇博客文章的摘要，欢迎阅读。',
-        content: '这是我的第一篇博客文章的内容，感谢你的阅读。'
+        title: 'First Blog',
+        summary: 'summary',
+        content: 'content'
     },
     {
-        title: '我的第二篇博客文章',
-        summary: '这是我的第二篇博客文章的摘要，欢迎阅读。',
-        content: '这是我的第二篇博客文章的内容，感谢你的阅读。'
+        title: 'Second Blog',
+        summary: 'summary',
+        content: 'content'
     }
 ];
 
